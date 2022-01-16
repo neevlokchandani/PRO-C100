@@ -2,7 +2,7 @@ import random
 import sys
 import os
 number = random.randint(10000, 1000000)
-class ATM():
+class ATM:
     def __init__(self, name, account_number, balance = 0):
         
         self.name = name
